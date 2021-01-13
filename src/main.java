@@ -7,10 +7,9 @@ public class main {
         list.addFront(2);
         list.addFront(6);
         list.addFront(423);
+        list.deleteValue(2);
+        list.deleteValue(5);
         list.printList();
-        list.sizeList();
-        list.sizeList();
-        list.clearList();
 
     }
 }
